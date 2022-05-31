@@ -75,4 +75,4 @@ spec:
       clientConfig:
         service:
           name: tekton-pipelines-webhook
-          namespace: tekton-pipelines
+          namespace: {{ .Values.namespace }}

@@ -17,4 +17,4 @@ metadata:
     app.kubernetes.io/instance: default
     app.kubernetes.io/part-of: tekton-pipelines
   name: feature-flags
-  namespace: tekton-pipelines
+  namespace: {{ .Values.namespace }}

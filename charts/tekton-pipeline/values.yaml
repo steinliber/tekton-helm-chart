@@ -34,3 +34,5 @@ configDefaults: {}
 
 # overrides any feature flags in the feature-flags ConfigMap
 featureFlags: {}
+
+namespace: "tekton"
